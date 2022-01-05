@@ -1,0 +1,16 @@
+_G.Bin = false
+while _G.Bin do
+    wait()
+game:GetService("ReplicatedStorage").RemoteEvents.U11pdateA11vatar:FireServer("skintone","Toothpaste")
+wait(1)
+game:GetService("ReplicatedStorage").RemoteEvents.U11pdateA11vatar:FireServer("skintone","Lime green")
+wait(1)
+game:GetService("ReplicatedStorage").RemoteEvents.U11pdateA11vatar:FireServer("skintone","Really red")
+
+wait(1)
+game:GetService("ReplicatedStorage").RemoteEvents.U11pdateA11vatar:FireServer("skintone","Pink")
+
+wait(1)
+
+game:GetService("ReplicatedStorage").RemoteEvents.U11pdateA11vatar:FireServer("skintone","Royal purple")
+end
